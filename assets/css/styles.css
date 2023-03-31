@@ -1,0 +1,76 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: darkblue;
+  display: flex;
+  justify-content: center;
+padding-top: 30px;
+}
+
+.img-perfil {
+  padding-top: 10vh;
+  margin: auto;
+  display: flex;
+  width: 150px;
+  height: 150px;
+}
+
+.img-perfil img {
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+.parrafo {
+  text-align: center;
+  margin: 10px 40px 10px 40px;
+}
+.datos ul li{
+  text-align: center;
+  list-style-position: inside;
+}
+.formacion ul li{
+  text-align: center;
+  list-style-position: inside;
+}
+.hobbies ol li{
+  text-align: center;
+  list-style-position: inside;
+}
+
+footer .footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+footer li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+footer a i {
+  font-size: 40px;
+  color: #333;
+}
+footer a:hover .facebook {
+  color: #4267b2;
+}
+footer a:hover .instagram {
+  color: #a80760;
+}
